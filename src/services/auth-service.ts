@@ -11,7 +11,7 @@ export const authService = createApi({
   }),
   tagTypes: ["Auth"],
   endpoints: (build) => ({
-    loginUser: build.mutation<BaseResponse<AppAuth[]>, loginType>({
+    loginUser: build.mutation<BaseResponse<AppAuth>, loginType>({
       query: (body: loginType) => ({
         url: "/auth/login",
         method: "POST",
