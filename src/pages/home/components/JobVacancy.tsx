@@ -9,21 +9,19 @@ const JobVacancy = () => {
             <img
               className="rounded-xl"
               src="https://images.unsplash.com/photo-1648737963503-1a26da876aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=900&q=80"
-              alt="Image Description"
+              alt=""
             />
           </div>
 
           <div className="mt-5 sm:mt-10 lg:mt-0">
             <div className="space-y-6 sm:space-y-8">
               <div className="space-y-2 md:space-y-4">
-                <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
-                  We tackle the challenges start-ups face
+                <h2 className="max-w-md  text-3xl lg:text-5xl ">
+                  Find Jobs Around the World for Your <span className="font-bold text-[#2653F1]">Job Vacancies</span> 
                 </h2>
                 <p className="text-gray-500">
-                  Besides working with start-up enterprises as a partner for
-                  digitalization, we have built enterprise products for common
-                  pain points that we have encountered in various products and
-                  projects.
+                  Search and connect with job vacation around the world. This
+                  gives you the opportunity to find your dream job
                 </p>
               </div>
 
